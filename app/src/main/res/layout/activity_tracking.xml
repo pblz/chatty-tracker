@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_weight="0.3"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_gravity="right"
+        android:layout_height="0dp">
+        <TextView
+            android:layout_margin="12dp"
+            android:text="@string/duration_total"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            />
+        <TextView
+            android:layout_margin="12dp"
+            android:text="00:00:00"
+            android:textStyle="bold"
+            android:id="@+id/timer"
+            android:textColor="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            />
+    </LinearLayout>
+
+    <Button
+        android:text="Play"
+        android:layout_marginBottom="6dp"
+        android:textSize="24sp"
+        android:layout_marginRight="6dp"
+        android:layout_marginLeft="6dp"
+        android:textColor="@color/colorPrimary"
+        android:background="@color/colorLightGrey"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/work" />
+    <Button
+        android:layout_margin="6dp"
+        android:textSize="24sp"
+        android:text="Coach talks"
+        android:textColor="@color/colorPrimary"
+        android:background="@color/colorLightGrey"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/explain" />
+    <Button
+        android:layout_margin="6dp"
+        android:text="Group Talks"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        android:background="@color/colorLightGrey"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/water" />
+    <Button
+        android:layout_margin="6dp"
+        android:text="End"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimaryDark"
+        android:layout_weight="0.3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/end" />
+
+</LinearLayout>

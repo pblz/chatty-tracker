@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Chatty - Tracker</string>
+    <string name="start_practice"> Tap to start tracking a new practice session</string>
+    <string name="tracking">Tracking Practice</string>
+    <string name="summary">Summary</string>
+    <string name="duration_total">Total</string>
+    <string name="work">Work</string>
+    <string name="explain">Explain</string>
+    <string name="water">Water</string>
+    <string name="done">Done</string>
+    <string name="duration">Duration</string>
+    <string name="overview">practice time overview</string>
+    <string name="zeroclock">00:00:00</string>
+</resources>
+
